@@ -1,0 +1,40 @@
+── Raw results ──
+ n_vars  n_clauses  sample   algorithm  satisfiable  time_sec  peak_memory_kb
+      8         30       0  resolution         True  0.064385       50.859375
+      8         30       0          dp        False  0.004558       47.078125
+      8         30       0  dpll_naive         True  0.001790       38.468750
+      8         30       0 dpll_random         True  0.001519       31.820312
+      8         30       0   dpll_dlis         True  0.001847       41.078125
+      8         30       1  resolution         True  0.009329       16.046875
+      8         30       1          dp        False  0.015175      141.734375
+      8         30       1  dpll_naive         True  0.001205       30.242188
+      8         30       1 dpll_random         True  0.001363       38.710938
+      8         30       1   dpll_dlis         True  0.001183       27.585938
+     10         40       0  resolution         True  0.073703       43.242188
+     10         40       0          dp        False  0.112210      712.585938
+     10         40       0  dpll_naive         True  0.002565       61.968750
+     10         40       0 dpll_random         True  0.004041       64.265625
+     10         40       0   dpll_dlis         True  0.002033       43.054688
+     10         40       1  resolution         True  0.036401       29.265625
+     10         40       1          dp         True  0.032903      179.281250
+     10         40       1  dpll_naive         True  0.003333       64.445312
+     10         40       1 dpll_random         True  0.002875       49.273438
+     10         40       1   dpll_dlis         True  0.002162       42.273438
+     12         50       0  resolution         True  0.050539       30.398438
+     12         50       0          dp         True  5.523123    25463.320312
+     12         50       0  dpll_naive         True  0.003150       65.953125
+     12         50       0 dpll_random         True  0.005200       87.367188
+     12         50       0   dpll_dlis         True  0.002354       51.687500
+     12         50       1  resolution         True  0.979021      336.699219
+     12         50       1          dp        False  0.304427     3784.125000
+     12         50       1  dpll_naive         True  0.007753       75.492188
+     12         50       1 dpll_random         True  0.004481       53.968750
+     12         50       1   dpll_dlis         True  0.006418       66.851562
+
+── Summary (mean over all runs) ──
+  algorithm  time_sec  peak_memory_kb
+         dp  0.998733     5054.687500
+  dpll_dlis  0.002666       45.421875
+ dpll_naive  0.003299       56.095052
+dpll_random  0.003247       54.234375
+ resolution  0.202230       84.418620
